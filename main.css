@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px transparent white;
+}
+.nav{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+ul{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+ul li a{
+    color: #000000;
+    text-decoration: none;
+    transition: 0.2s all ease;
+}
+ul li a:hover{
+    color: rgb(0, 255, 149);
+}
+.Button{
+    width: 160px;
+    color: rgb(0, 0, 0);
+}
+.FirstBlock{
+    background-image: url(background.jpg);
+}
+.Button div a{
+    transition: 0.2s all ease;
+}
+.Button div a:hover{
+    color: rgb(0, 255, 149);
+}
+.FirstBlock{
+    width: 100%;
+    height: 750px;
+    border-top: 2px dashed white;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 55%;
+    height: 100%;
+    display: flex;
+}
+.left h1{
+    font-size: 60px;
+    color: white;
+}
+.left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+}
+.Button2{
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+.FirstBlock .container h1{
+    color: #086d19;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+.Button .Button1{
+    color:white;
+}
+.Button1{
+    width: 100px;
+    height: 50px;
+    background-color: #059919;
+}
+.FirstBlock .container button{
+    background-color: #06683a;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
