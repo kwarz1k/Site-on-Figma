@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.header{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px transparent white;
+}
+.nav{
+    position: relative;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+ul{
+    font-family: "Lato", sans-serif;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+ul li a{
+    color: #000000;
+    text-decoration: none;
+    transition: 0.2s all ease;
+}
+ul li a:hover{
+    color: rgb(0, 255, 149);
+}
+.Button{
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    width: 160px;
+    color: rgb(0, 0, 0);
+}
+.FirstBlock{
+    background-image: url(background.jpg);
+}
+.Button div a{
+    transition: 0.2s all ease;
+}
+.Button div a:hover{
+    color: rgb(0, 255, 149);
+}
+.FirstBlock{
+    width: 100%;
+    height: 750px;
+    border-top: 2px dashed white;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 55%;
+    height: 100%;
+    display: flex;
+}
+.left h1{
+    font-family: georgia,sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.left{
+    p2{
+        font-family: "Lato", sans-serif;
+    }
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+}
+.Button2{
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+.FirstBlock .container h1{
+    color: #086d19;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+.Button .Button1{
+    color:white;
+}
+.Button1{
+    font-family: "Lato", sans-serif;
+    width: 100px;
+    height: 50px;
+    background-color: #059919;
+}
+@font-face {
+        font-family: georgia ;
+        src: url("assets/georgia");
+}
+.FirstBlock .container button{
+    background-color: #06683a;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sus{
+    display: flex;
+    justify-content: space-evenly;
+}
+.how{
+    padding-top: 50px;
+    p{
+        font-family: "Lato", sans-serif;
+        margin-left: 320px;
+    }
+}
+.First{
+    h2{
+        font-family: georgia,sans-serif;
+        color: #086d19;
+        font-size: 50px;
+    }
+}
+.Second{
+    p{
+        font-family: "Lato", sans-serif;
+        margin-top: 25px;
+    }
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+}
+.card1{
+    
+    position: relative;
+}
+.card2{
+    margin-top: 270px;
+}
+.card3{
+    margin-top: 50px;
+
+}
+.kartinka{
+    margin-top: 60px;
+
+}
+.MAINTEXT{
+font-family: georgia,sans-serif;
+font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+color: black;
+padding-top: 55px;
+padding-bottom: 55px;
+
+}
+.number{
+    color: green;
+    font-size: 70px;
+}
+.ThirdBlock{
+    margin-top: 40px;
+    background-color: #245852;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bop{
+    color: white;
+}
+.text121{
+    font-family: georgia,sans-serif;
+    margin-left: 300px;
+    font-size: 40px;
+
+}
+.text122{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+  font-weight: 10;
+  font-style: normal;
+  margin-top: 35px;
+  margin-left: 300px;
+}
+.button3{
+    
+    font-size: 15px;
+    margin-top: 35px;
+    width: 165px;
+    height: 50px;
+    margin-left: 300px;
+    color: white;
+    background-color: #01996D;
+}
+.video111{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 270px;
+}
+.textasas{
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: end;
+    font-weight: 10;
+    font-style: normal;
+    width:61%;
+    margin-top: 100px;
+}
+.Tell{
+    font-family: georgia,sans-serif;
+    color: #177164;
+    display: flex;
+    justify-content: end;
+    font-size: 22px;
+    width: 83%;
+    margin-top: 20px;
+
+}
+.EVER{
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: end;
+    font-weight: 10;
+    font-style: normal;
+    width: 79%;
+    margin-top: 30px;
+}
+.knopka button{
+    background-color: #01996D;
+    color: white;
+    width: 165px;
+    height: 50px;
+    margin-left: 57%;
+    margin-top: 30px;
+}
+.ENDBlock{
+    margin-top: 200px;
+    width: 100%;
+    height: 654px;
+    background-color: #245852;
+}
+.TEXXXXXXT{
+    color: white;
+    h1{
+        font-family: georgia,sans-serif;
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+    p{
+        font-family: "Lato", sans-serif;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+}
+.ArturPirozhkov{
+    margin: 30px;
+    padding: 107px;
+
+}
